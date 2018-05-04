@@ -1,0 +1,4 @@
+plugins:
+  enable_content_language_switching:
+    default: false
+    client: false
