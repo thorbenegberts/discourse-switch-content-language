@@ -2,8 +2,13 @@
 <div class="control-group signatures">
   <label class="control-label">{{i18n 'user_preferences.content_language'}}</label>
   <div class="controls">
-    <label class='text-label'>{{input type="checkbox" name="contentLanguageEn" checked=model.custom_fields.content_language_en}} {{i18n 'user_preferences.content_language_en'}}</label>
-    <label class='text-label'>{{input type="checkbox" name="contentLanguageDe" checked=model.custom_fields.content_language_de}} {{i18n 'user_preferences.content_language_de'}}</label>
+    <label class='text-label'>
+      {{input type="checkbox" name="contentLanguageEn" checked=model.custom_fields.content_language_en}}
+      {{i18n 'user_preferences.content_language_en'}}</label>
+    <label class='text-label'>
+      {{input type="checkbox" name="contentLanguageDe" checked=model.custom_fields.content_language_de}}
+      {{i18n 'user_preferences.content_language_de'}}
+    </label>
   </div>
   <div class="instructions">{{i18n "user_preferences.content_language_instructions"}}</div>
 </div>
