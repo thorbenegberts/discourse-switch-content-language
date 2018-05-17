@@ -13,4 +13,18 @@ after_initialize do
   User.register_custom_field_type('content_language_en', :boolean)
   User.register_custom_field_type('content_language_de', :boolean)
 
+  #add_to_class(Admin::GroupsController) do
+
+  #end
+
+  add_model_callback(User, :after_commit, on: :update) do
+    # we only care when the primary_group_id has changed...
+    #next unless primary_group_ids = self.previous_changes["primary_group_id"]
+    #byebug
+    # ... and only if either is tracked
+    #next unless (GroupTracker.tracked_group_ids & primary_group_ids).present?
+
+    #GroupTracker.update_tracking!
+  end
+
 end
