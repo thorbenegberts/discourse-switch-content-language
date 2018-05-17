@@ -18,13 +18,19 @@ after_initialize do
   #end
 
   add_model_callback(User, :after_commit, on: :update) do
-    # we only care when the primary_group_id has changed...
+    # we only care when the selected languages have changed
     #next unless primary_group_ids = self.previous_changes["primary_group_id"]
     #byebug
     # ... and only if either is tracked
     #next unless (GroupTracker.tracked_group_ids & primary_group_ids).present?
 
-    #GroupTracker.update_tracking!
+
+    # TODO only do something if language settings have changed
+
+    # TODO get group ID (or name?) for EN or DE group (or both) from the site settings
+
+    # TODO add or remove user to/grom group(s)
+
   end
 
 end
