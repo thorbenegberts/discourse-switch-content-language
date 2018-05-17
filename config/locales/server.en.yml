@@ -1,3 +1,5 @@
 en:
   site_settings:
     enable_content_language_switching: "Allow users to configure the language of displayed topics?"
+    content_language_switching_group_en: "Name of the user group which will see English topics"
+    content_language_switching_group_de: "Name of the user group which will see German topics"

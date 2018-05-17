@@ -2,3 +2,9 @@ plugins:
   enable_content_language_switching:
     default: false
     client: false
+  content_language_switching_group_en:
+    default: ""
+    client: false
+  content_language_switching_group_de:
+    default: ""
+    client: false
