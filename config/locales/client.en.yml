@@ -6,4 +6,5 @@ en:
       content_language: "Content Language"
       content_language_en: "English"
       content_language_de: "German"
+      content_language_all: "All"
       content_language_instructions: "Determines in which language topics are displayed."

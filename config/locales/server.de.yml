@@ -1,5 +1,5 @@
 de:
   site_settings:
     enable_content_language_switching: "Benutzer erlauben, die Sprache für angezeigte Themen zu konfigurieren?"
-    content_language_switching_group_en: "Name der Benutzergruppe, die deutschsprachige Themen sehen sollen"
-    content_language_switching_group_de: "Name der Benutzergruppe, die englischsprachige Themen sehen sollen"
+    content_language_switching_group_en: "ID der Benutzergruppe, deren Mitglieder englischsprachige Themen sehen sollen"
+    content_language_switching_group_de: "ID der Benutzergruppe, deren Mitglieder deutschsprachige Themen sehen sollen"

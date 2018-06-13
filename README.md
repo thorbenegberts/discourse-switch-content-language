@@ -18,7 +18,7 @@ TODO
 
 ## Install the Plugin
 
-Clone this repository to your local code directory and create a symlink in the `plugins` directory:
+Clone this repository and create a symlink in the `plugins` directory:
 
 ```
 $ cd ~/mycode/discourse/plugins
